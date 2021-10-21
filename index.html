@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sign up</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/app.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="signup">
+        <div class="heading-signup">
+          <p class="heading">Sign Up</p>
+          <a href="#" class="sign-up__google">
+            <i class="fa fa-google"></i>
+            <span>Sign up with Google</span>
+          </a>
+        </div>
+        <div class="signup-desc">
+          <span>Or</span>
+        </div>
+        <form action="" class="form">
+          <div class="input-name">
+            <div class="input-group input-group__name">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-input" id="name" placeholder=" " autocomplete="off">
+            </div>
+            <div class="input-group input-group__name">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-input" id="username" placeholder=" " autocomplete="off">
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-input" id="email" placeholder=" " autocomplete="off">
+          </div>
+          <div class="input-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-input" id="password" placeholder=" " autocomplete="off">
+          </div>
+          <div class="form-checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" class="input-checkbox">
+              <label for="checkbox"class="form-checkbox__text">Creating an account means you’re okay with our <a href="#">Terms of Service, Privacy Policy,</a> and our default <a href="#"> Notification Settings.</a></label>
+          </div>
+          <button type="submit" class="form-submit">Create Account</button>
+          <p class="form-signin">Already have an account? <a href="#">Sign In</a></p>
+        </form>
+      </div>
+      <div class="signin">
+        <div class="heading-signup">
+          <p class="heading">Sign In</p>
+          <a href="#" class="sign-up__google">
+            <i class="fa fa-google"></i>
+            <span>Sign up with Google</span>
+          </a>
+        </div>
+        <div class="signup-desc">
+          <span>Or</span>
+        </div>
+        <form action="" class="form">
+          <div class="input-group">
+            <label for="email" class="form-label">Username or Email Address</label>
+            <input type="email" class="form-input" id="email" placeholder=" " autocomplete="off">
+          </div>
+          <div class="input-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-input" id="password" placeholder=" " autocomplete="off">
+          </div>
+          <button type="submit" class="form-submit">Sign In</button>
+          <p class="form-signup"><a href="#">Sign Up</a></p>
+        </form>
+      </div>
+    </div>
+  <script src="./assets/js/main.js"></script>
+  </body>
+</html>
